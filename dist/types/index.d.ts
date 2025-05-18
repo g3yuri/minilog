@@ -18,7 +18,14 @@ export interface MinilogOptions {
 export interface LogData {
     [key: string]: any;
 }
-declare class Minilog {
+export interface LogEvent {
+    apiKey: string;
+    timestamp: number;
+    event: string;
+    data: LogData;
+    context: Record<string, any>;
+}
+export declare class Minilog {
     private apiKey;
     private options;
     private queue;
@@ -56,4 +63,4 @@ declare class Minilog {
     private getBrowserContext;
 }
 export declare const minilog: Minilog;
-export { Minilog };
+//# sourceMappingURL=index.d.ts.map
