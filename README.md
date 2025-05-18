@@ -70,6 +70,8 @@ npm install minilog
 
 Para instrucciones detalladas, consulta el [README del worker](/worker/README.md).
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/g3yuri/minilog)
+
 ## Licencia
 
 CC-BY-NC
