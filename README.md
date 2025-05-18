@@ -72,4 +72,4 @@ Para instrucciones detalladas, consulta el [README del worker](/worker/README.md
 
 ## Licencia
 
-MIT 
+CC-BY-NC

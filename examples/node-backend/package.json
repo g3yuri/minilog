@@ -1,0 +1,19 @@
+{
+  "name": "minilog-example-node-backend",
+  "version": "1.0.0",
+  "description": "Ejemplo de uso de minilog en un backend de Node.js",
+  "private": true,
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@g3yuri/minilog": "file:../../",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+} 

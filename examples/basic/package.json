@@ -1,0 +1,19 @@
+{
+  "name": "minilog-example-basic",
+  "version": "1.0.0",
+  "description": "Ejemplo de uso de la librería minilog",
+  "private": true,
+  "scripts": {
+    "start": "ts-node index.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn index.ts"
+  },
+  "dependencies": {
+    "@g3yuri/minilog": "file:../../"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  }
+} 
