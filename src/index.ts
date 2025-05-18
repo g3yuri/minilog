@@ -21,7 +21,7 @@ export interface LogData {
   [key: string]: any;
 }
 
-interface LogEvent {
+export interface LogEvent {
   apiKey: string;
   timestamp: number;
   event: string;
@@ -29,7 +29,7 @@ interface LogEvent {
   context: Record<string, any>;
 }
 
-class Minilog {
+export class Minilog {
   private apiKey: string = '';
   private options: Required<MinilogOptions>;
   private queue: LogEvent[] = [];
@@ -220,7 +220,4 @@ class Minilog {
 }
 
 // Exportar una instancia singleton
-export const minilog = new Minilog();
-
-// Exportar también la clase para quienes quieran extensibilidad
-export { Minilog }; 
+export const minilog = new Minilog(); 
