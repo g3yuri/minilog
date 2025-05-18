@@ -1,0 +1,26 @@
+name = "minilog-worker"
+main = "src/index.ts"
+compatibility_date = "2023-09-04"
+
+# KV Namespace para almacenar logs
+kv_namespaces = [
+  { binding = "MINILOG_KV", id = "xxxx", preview_id = "xxxx" }
+]
+
+[vars]
+# Variables de entorno
+# Reemplaza estos valores con tus propias API keys y secretos
+JWT_SECRET = "reemplazar-con-tu-secreto-real"
+
+# Rutas
+routes = [
+  { pattern = "api.minilog.workers.dev", custom_domain = true }
+]
+
+# Configuración de límites y capacidades
+[limits]
+cpu_ms = 50
+
+# Configuración de dev
+[dev]
+port = 8787 

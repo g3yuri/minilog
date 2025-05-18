@@ -1,0 +1,30 @@
+{
+  "name": "minilog-worker",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Worker Cloudflare con Hono para recibir y procesar logs de minilog",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "keywords": [
+    "cloudflare",
+    "worker",
+    "hono",
+    "logging"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "hono": "^3.3.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250517.0",
+    "@types/uuid": "^9.0.1",
+    "typescript": "^5.8.3",
+    "wrangler": "^3.114.8"
+  }
+}
