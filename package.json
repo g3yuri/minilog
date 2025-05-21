@@ -1,6 +1,6 @@
 {
   "name": "@g3yuri/minilog",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Una librería JavaScript simple para registrar eventos y acciones de aplicaciones",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
