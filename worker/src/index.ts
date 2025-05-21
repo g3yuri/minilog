@@ -66,7 +66,7 @@ app.get('/', (c) => {
   return c.json({
     service: 'minilog-worker',
     version: '0.1.0',
-    docs: 'https://github.com/yourusername/minilog/tree/main/docs',
+    docs: 'https://github.com/g3yuri/minilog/tree/main/docs',
   });
 });
 

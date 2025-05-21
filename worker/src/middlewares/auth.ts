@@ -14,6 +14,11 @@ export async function apiKeyAuth(c: Context<{ Bindings: Bindings }>, next: Next)
   }
 
   try {
+    if (c.env.JWT_SECRET === apiKey) {
+      c.set('userId', 'system');
+      await next();
+      return;
+    }
     // Validar la API key contra KV
     // Formato de la clave: apikey:{apiKey}
     const apiKeyData = await c.env.MINILOG_KV.get(`apikey:${apiKey}`);

@@ -1,4 +1,4 @@
-import { minilog, Minilog } from './index';
+import { minilog, Minilog } from './variant';
 
 // Mock de la función fetch global
 global.fetch = jest.fn().mockImplementation(() => 

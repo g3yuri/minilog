@@ -1,10 +1,10 @@
-name = "minilog-worker"
+name = "minilog"
 main = "src/index.ts"
 compatibility_date = "2023-09-04"
 
 # KV Namespace para almacenar logs
 kv_namespaces = [
-  { binding = "MINILOG_KV", id = "xxxx", preview_id = "xxxx" }
+  { binding = "MINILOG_KV", id = "24a91131165944d3812d81da12086fa8", preview_id = "c7a007c7a575471eb4d97554bc1cfd16" }
 ]
 
 [vars]
@@ -18,8 +18,8 @@ routes = [
 ]
 
 # Configuración de límites y capacidades
-[limits]
-cpu_ms = 50
+#[limits]
+#cpu_ms = 10
 
 # Configuración de dev
 [dev]
