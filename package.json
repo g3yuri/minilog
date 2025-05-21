@@ -40,7 +40,5 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "hono": "^4.7.10",
-    "uuid": "^11.1.0"
   }
 }
