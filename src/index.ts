@@ -1,4 +1,4 @@
-const URL_ENDPOINT = 'https://minilog.app/api/logs';
+const URL_ENDPOINT = 'https://minidash-six.vercel.app/api/logs';
 
 interface MiniLogOptions {
   endpoint?: string;
